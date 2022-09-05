@@ -1,4 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@0,8..144;1,8..144&family=Tajawal:wght@200;400&display=swap');
+
+
+
 * {
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
+
+body{ 
+    background-color: #000000;
+    font-family: 'Roboto Serif', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding: 32px;
+  gap: 4px;
+}
+
+header h1{
+    color: #f04f00;
+}
+
+header p{
+    color: rgb(255, 255, 255);
+}
+
+section h2{
+    color: #f04f00;
+}
+
+section ul li{
+    color: rgb(255, 255, 255);
+}
+.details {
+    color: rgb(255, 255, 255);
+}
+
+.details h3{
+    color: rgb(255, 255, 255);
+}
+
+.details p{ 
+    color: rgb(255, 255, 255);
+}
+.price{
+    color: rgb(255, 255, 255);
+}
+
